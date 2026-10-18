@@ -61,7 +61,7 @@ Identify useful patterns in track popularity that could inform music discovery, 
 | Chill | 53.70 |
 | Sad | 52.38 |
 
-![Top genres by average popularity](assets/top_genres_by_popularity.png)
+![Top genres by average popularity](assests/top_genres_by_popularity.png)
 
 **Business takeaway:** These genres are worth investigating for playlist and discovery strategies. Genre-level averages should be considered alongside listener engagement, sample composition, and other signals.
 </details>
@@ -69,11 +69,11 @@ Identify useful patterns in track popularity that could inform music discovery, 
 <details open>
 <summary><strong>2. Most tracks fall in the 2–5 minute range</strong></summary>
 
-![Track duration distribution](assets/track_duration_distribution.png)
+![Track duration distribution](assests/track_duration_distribution.png)
 
 The average track duration is approximately **3.80 minutes**, while the median is approximately **3.55 minutes**.
 
-![Average popularity by duration](assets/popularity_by_duration.png)
+![Average popularity by duration](assests/popularity_by_duration.png)
 
 Tracks in the **3–5 minute range** have the highest average popularity in the duration groups (around **34.75**). Tracks shorter than 2 minutes average **28.62**, while tracks over 5 minutes average **31.16**.
 
@@ -83,7 +83,7 @@ Tracks in the **3–5 minute range** have the highest average popularity in the 
 <details open>
 <summary><strong>3. Audio features have weak linear relationships with popularity</strong></summary>
 
-![Audio feature correlation heatmap](assets/audio_feature_correlation_heatmap.png)
+![Audio feature correlation heatmap](assests/audio_feature_correlation_heatmap.png)
 
 | Audio feature | Correlation with popularity |
 |---|---:|
@@ -101,7 +101,7 @@ Loudness has the strongest positive correlation in the analysis, but the relatio
 <details open>
 <summary><strong>4. Explicit tracks have a higher average popularity score in this dataset</strong></summary>
 
-![Explicit vs non-explicit popularity](assets/explicit_vs_non_explicit.png)
+![Explicit vs non-explicit popularity](assests/explicit_vs_non_explicit.png)
 
 | Track label | Average popularity | Median popularity | Records |
 |---|---:|---:|---:|
@@ -114,7 +114,7 @@ Loudness has the strongest positive correlation in the analysis, but the relatio
 <details open>
 <summary><strong>5. Artist popularity varies substantially</strong></summary>
 
-![Top artists by average popularity](assets/top_artists_by_popularity.png)
+![Top artists by average popularity](assests/top_artists_by_popularity.png)
 
 Artists were ranked by average track popularity after applying a minimum threshold of **10 tracks** to reduce rankings driven by very small samples. In this analysis, Bad Bunny has an average popularity score of **87.08** across 48 tracks.
 
@@ -127,11 +127,11 @@ Artists were ranked by average track popularity after applying a minimum thresho
 
 ### Track popularity distribution
 
-![Popularity distribution](assets/popularity_distribution.png)
+![Popularity distribution](assests/popularity_distribution.png)
 
 ### Genre representation
 
-![Genre distribution](assets/genre_distribution.png)
+![Genre distribution](assests/genre_distribution.png)
 
 The notebook's ten most represented genres each contain **1,000 records**, reflecting balanced counts among those genres in this dataset.
 
