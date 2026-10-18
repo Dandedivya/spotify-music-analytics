@@ -3,6 +3,12 @@
 ## Project Overview
 This project explores Spotify track data to understand music popularity, genre performance, track duration, and audio characteristics using Python. The goal is to derive meaningful insights that can support music-related business decisions.
 
+## Featured Analysis
+
+### Average Popularity by Genre
+
+![Average Popularity by Genre](genre_popularity.png)
+
 ## Business Use Case
 Music streaming platforms need to understand which genres and audio characteristics are associated with popular tracks. This analysis explores patterns in track popularity and compares music attributes to identify useful trends.
 
