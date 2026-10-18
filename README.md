@@ -8,6 +8,7 @@ This project explores Spotify track data to understand music popularity, genre p
 ### Average Popularity by Genre
 
 ![Average Popularity by Genre](genre_popularity.png)
+**Key Insight:** Among the 10 genres analyzed, pop-film had the highest average track popularity (approximately 59.3), followed by K-pop (approximately 57.0) and chill (approximately 53.7). These results describe this dataset and do not necessarily represent overall Spotify listening trends.
 
 ## Business Use Case
 Music streaming platforms need to understand which genres and audio characteristics are associated with popular tracks. This analysis explores patterns in track popularity and compares music attributes to identify useful trends.
